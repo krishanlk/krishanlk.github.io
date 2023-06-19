@@ -5,6 +5,23 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+#more {display: none;}
+#more_ab {display: none;}
+#more_met {display: none;}
+#more_mo {display: none;}
+#more_att{display: none;}
+#more_data {display: none;}
+
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans","Outfit", sans-serif;
   color: #444444;
@@ -62,6 +79,16 @@ h6 {
   opacity: 1;
 }
 
+
+
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
