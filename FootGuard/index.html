@@ -90,13 +90,135 @@
         </div>
       </div>
     </div>
-
   </section><!-- End Hero -->
 
   <main id="main" >
-
     <!-- ======= Featured Services Section ======= -->
-    <section id="featured-services" class="featured-services">
+    
+    <section id="about" class="featured-services"><br><br>
+    <!-- vision, mission -->
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h2 class="mid">
+                <i class="bi bi-eye"></i>
+                <b>Vision</b>
+              </h2><br>
+              <p>To revolutionize the management and monitoring of diabetic foot ulcers (DFUs) through the power of artificial intelligence, improving the lives of individuals living with diabetes worldwide.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h2 class="mid">
+                <i class="bi bi-bullseye"></i>
+                <b>Mission</b>
+              </h2><br>
+              <p>Develop AI tool for accessible, accurate, user-friendly assessment and progress monitoring of DFUs, providing timely information, personalized care, and insights, reducing amputations.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <!-- Goal -->
+        <div class="row gx-0 ">
+          <div class="col-lg-12 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h2 class="mid"> <i class="bi bi-gem"> </i><b>Goals</b></h2><br>
+              <ul>
+                <li>
+                  <h6>Develop an AI-based tool that accurately assesses the presence, depth, and characteristics of diabetic foot ulcers using image analysis and machine learning algorithms.
+                  </h6>
+                </li>
+                <li>
+                  <h6>Create a user-friendly interface that allows patients and medical professionals to easily access and utilize the tool for efficient monitoring and management of DFUs.
+                  </h6>
+                </li>
+                <li>
+                  <h6>Integrate conversational-based symptom tracking to capture valuable patient-reported data and enhance the holistic assessment of DFUs.
+                  </h6>
+                </li>
+                <li>
+                  <h6>Continuously improve the performance and accuracy of the tool through ongoing research, development, and refinement of machine learning models and algorithms.
+                  </h6>
+                </li>
+                <li>
+                  <h6>Establish a comprehensive database to store and analyze historical DFU data, enabling further insights, research, and development in the field of DFU management.
+                  </h6>
+                </li>
+                <li>
+                  <h6>Collaborate with healthcare providers, researchers, and stakeholders to ensure the widespread adoption and implementation of our AI-based tool in clinical settings.
+                  </h6>
+                </li>
+                <li>
+                  <h6>Contribute to the reduction of DFU-related amputations by providing timely interventions, personalized care plans, and actionable insights to healthcare professionals.
+                  </h6>
+                </li>
+                <li>
+                  <h6>Continually innovate and expand the capabilities of our tool to address the evolving needs of diabetic patients and healthcare systems, with a focus on improving health outcomes and enhancing the quality of life for individuals living with diabetes.</h6>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        
+        <!-- Research Intro -->
+        <div class="row gx-0 ">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img style="padding-right: 25px;" src="assets/img/diabetes-animate.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h2 class="mid"> <b>Introduction</b></h2>
+              <p style="text-align: justify;">Introducing our groundbreaking solution for diabetic foot ulcer assessment and progress monitoring! Our innovative AI-based tool revolutionizes the way we manage and monitor diabetic foot ulcers, providing accurate and timely information for both patients and medical professionals. With a user-friendly interface and advanced machine learning models, our tool enables efficient and precise detection of DFUs, ensuring early interventions and personalized care. By automating the evaluation process and tracking healing progress, we empower healthcare providers to make informed decisions and significantly reduce the risk of amputations. 
+                <span id="dots">...</span>
+                 <span id="more">Join us in transforming the lives of individuals with diabetes by improving health outcomes and advancing the field of diabetic foot ulcer management.
+                 </span>
+               
+                <br>
+              <p onclick="myFunction()" id="myBtn" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Read More</span>
+                
+              </p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <div class="container">
 
         <div class="row">
@@ -123,7 +245,7 @@
           </div>
         </div>
 
-      </div>
+      </div><br><br>
     </section><!-- End Featured Services Section -->
 
     <!-- ======= About Section ======= -->
@@ -686,6 +808,111 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+
+  <script>
+    // function intro
+     function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+  
+    // function abstract
+    function myFunction_ab() {
+      var dots = document.getElementById("dots_ab");
+      var moreText = document.getElementById("more_ab");
+      var btnText = document.getElementById("myBtn_ab");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+  // methodology
+    function myFunction_met() {
+      var dots = document.getElementById("dots_met");
+      var moreText = document.getElementById("more_met");
+      var btnText = document.getElementById("myBtn_met");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    // moment found
+  
+    function myFunction_mo() {
+      var dots = document.getElementById("dots_mo");
+      var moreText = document.getElementById("more_mo");
+      var btnText = document.getElementById("myBtn_mo");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+  // attach
+    function myFunction_att() {
+      var dots = document.getElementById("dots_att");
+      var moreText = document.getElementById("more_att");
+      var btnText = document.getElementById("myBtn_att");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+  // data feed
+    function myFunction_data() {
+      var dots = document.getElementById("dots_data");
+      var moreText = document.getElementById("more_data");
+      var btnText = document.getElementById("myBtn_data");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+   
+  
+    
+  
+    </script>
 </body>
 
 </html>
