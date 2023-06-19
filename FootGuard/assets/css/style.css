@@ -381,13 +381,13 @@ h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #16df7e;
-  box-shadow: 0 8px 28px rgba(22, 223, 126, 0.45);
+  background: #206bfb;
+  box-shadow: 0 8px 28px rgba(32, 107, 251, 0.45);
 }
 
 #hero .btn-get-started:hover {
-  background: #206bfb;
-  box-shadow: 0 8px 28px rgba(32, 107, 251, 0.45);
+  background: #16df7e;
+  box-shadow: 0 8px 28px rgba(22, 223, 126, 0.45);
 }
 
 #hero .btn-watch-video {
